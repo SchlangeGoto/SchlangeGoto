@@ -1,6 +1,26 @@
 <h1 align="center">Hi 👋, I'm SchlangeGoto</h1>
 <h3 align="center">I am a computer sience student from Austria/Vienna</h3>
 
+<!--
+I want to say, who I am: I am a computer sience stundent form Austria/Vienna, maybe add my age.
+I want that the people know that I programm java, bash, kotlin and that I am doing HTML, CSS and more.
+They should know that I am good at Photoshop, Illustrator, General Graphic Design, and pixelart (I have done my profile pic)
+They should know that I love 3d printing
+They should know my hobbys, so playing football, Running, Sometimes parcour, Hikking, Skiing and much more
+They should know I love tinkering and building things, also with 3d printing.
+They should know that I am currently working on my Portfolio.
+They should know that I am a member of Setup Studios and currently working on MC-Milsim as the lead dev
+They should know that I am a tech enthusiast, and love all kinds of tech from building PCs to Custom Keyboards over Mics ending with Cameras
+They should know that I would like to do photography but I just dont have the time/Equipment for it
+They should know that I love cars
+They should know that I love Linux, especialy arch, and that I love ricing my hyprland setup
+
+then my projects overview
+and Github stats
+Socials
+
+-->
+
 - 🔭 I’m currently working on [MC-Milsim a Minecraft mod](https://github.com/setup-studios/MC-Milsim)
 
 - 🌱 I’m currently learning **Java, HTML, Cisco CLI and more**
