@@ -22,7 +22,7 @@
 ```python
 class TechEnthusiast:
     def __init__(self):
-        self.name = "YOUR_NAME"
+        self.name = "SchlangeGoto"
         self.age = 15
         self.location = "Vienna, Austria 🇦🇹"
         self.school = "HTL Rennweg - IT Department (Year 2)"
@@ -30,14 +30,14 @@ class TechEnthusiast:
         
         self.obsessions = {
             "networking": ["Cisco", "routing", "switching", "infrastructure"],
-            "development": ["web", "mobile", "embedded", "everything"],
+            "development": ["web", "embedded", "everything"],
             "hardware": ["custom keyboards", "nerf mods", "3D printing"],
             "media": ["audio engineering", "video production", "design"],
-            "sports": ["karting 🏎️", "football ⚽"]
+            "sports": ["karting", "football"]
         }
         
     def life_philosophy(self):
-        return "Build. Break. Learn. Repeat. ♾️"
+        return "Build. Break. Learn. Repeat."
     
     def dream_setup(self):
         wishlist = [
@@ -69,10 +69,9 @@ print(me.life_philosophy())
 ### 💾 Languages
 ```javascript
 const languages = {
-    primary: ["Python", "JavaScript", "TypeScript"],
-    systems: ["C++", "Java"],
+    primary: ["JavaScript", "Java", "Bash"],
     web: ["HTML5", "CSS3"],
-    learning: ["Rust", "Go", "Assembly"]
+    learning: ["C", "Assembly"]
 };
 ```
 
@@ -109,10 +108,10 @@ $ cat /etc/tech-stack
 ### 🎨 Creative & Hardware
 ```css
 .creative-tools {
-    design: [Figma, Adobe Suite];
-    3d: [Blender, Fusion360];
+    design: [Adobe Suite];
+    3d: [Blockbench, Fusion360];
     hardware: [Arduino, ESP32, RPi];
-    music: [Ableton, FL Studio];
+    music: [Ableton];
 }
 ```
 
@@ -124,29 +123,57 @@ $ cat /etc/tech-stack
 
 ## 📊 METRICS.LOG
 
-<div align="center">
-
-```diff
-@@  GitHub Statistics  @@
+```bash
+$ git log --author="SchlangeGoto" --stat --graph
 ```
 
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=58a6ff&text_color=c9d1d9&icon_color=1f6feb" width="49%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=dark&hide_border=true&background=0D1117&stroke=58a6ff&ring=58a6ff&fire=ff6e6e&currStreakLabel=c9d1d9" width="49%" />
+<div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=58a6ff&text_color=c9d1d9" width="49%" />
-<img src="https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&theme=darkhub&no-frame=true&no-bg=true&column=4&row=2" width="49%" />
+<img src="https://github-readme-stats.vercel.app/api?username=SchlangeGoto&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=58a6ff&text_color=c9d1d9&icon_color=1f6feb&count_private=true&include_all_commits=true" alt="GitHub Stats" width="495"/>
 
 </div>
 
+```python
+>>> import github_stats
+>>> stats = github_stats.get_user("SchlangeGoto")
+>>> print(f"Current Streak: {stats.streak}")
+```
+
+<div align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=SchlangeGoto&theme=dark&hide_border=true&background=0D1117&stroke=58a6ff&ring=58a6ff&fire=ff6e6e&currStreakLabel=c9d1d9" alt="GitHub Streak" width="495"/>
+
+</div>
+
+```javascript
+// Query most used languages
+const languages = await fetchTopLangs("SchlangeGoto");
+console.log(languages);
+```
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SchlangeGoto&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" alt="Top Languages" width="495"/>
+
+</div>
+
+```bash
+$ cat /var/log/achievements.log | grep "trophy"
+```
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=SchlangeGoto&theme=darkhub&no-frame=true&no-bg=true&column=7&row=1&margin-w=10&margin-h=10" alt="GitHub Trophies" width="800"/>
+
+</div>
 ---
 
 ## 🎯 CURRENT.QUEST
 
 ```markdown
-[████████████████████░░░░] 80% - Building home lab infrastructure
+[██████░░░░░░░░░░░░░░░░░░] 30% - Building home lab infrastructure
 [███████████████░░░░░░░░░] 65% - Mastering React & Next.js
-[██████████░░░░░░░░░░░░░░] 45% - CCNA certification prep
-[███████████████████████░] 95% - Custom keyboard build #4
+[███████████████████████░] 95% - Custom keyboard build #2
 [████████░░░░░░░░░░░░░░░░] 35% - IoT home automation project
 ```
 
@@ -198,10 +225,10 @@ drwxr-xr-x  iot-sensor-network/        # ESP32 + Node-RED setup
 
 ```javascript
 const socials = {
-    email: "YOUR_EMAIL",
-    linkedin: "YOUR_LINKEDIN",
-    instagram: "YOUR_INSTAGRAM", 
-    discord: "YOUR_DISCORD"
+    email: "dev@kkazi.dev",
+    linkedin: "Coming Soon™ 👀",
+    instagram: "@kazi.goto",
+    discord: "SchlangeGoto"
 };
 
 // Always open to:
@@ -215,12 +242,12 @@ const interests = [
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:YOUR_EMAIL)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/YOUR_INSTAGRAM)
-[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/YOUR_DISCORD)
+[![Email](https://img.shields.io/badge/dev@kkazi.dev-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:dev@kkazi.dev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn_(Soon™)-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](#)
+[![Instagram](https://img.shields.io/badge/@kazi.goto-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/kazi.goto)
+[![Discord](https://img.shields.io/badge/SchlangeGoto-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/808417880429166682)
 
-![Profile Views](https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&color=58a6ff&style=for-the-badge&label=PROFILE+VIEWS)
+![Profile Views](https://komarev.com/ghpvc/?username=SchlangeGoto&color=58a6ff&style=for-the-badge&label=PROFILE+VIEWS)
 
 </div>
 
