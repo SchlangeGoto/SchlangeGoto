@@ -1,47 +1,245 @@
-<h1 align="center">Hi 👋, I'm SchlangeGoto</h1>
-<h3 align="center">I am a computer sience student from Austria/Vienna</h3>
+<div align="center">
+  
+```ascii
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║   ████████╗███████╗ ██████╗██╗  ██╗    ███████╗███╗   ██╗████████╗██╗  ██╗  ║
+║   ╚══██╔══╝██╔════╝██╔════╝██║  ██║    ██╔════╝████╗  ██║╚══██╔══╝██║  ██║  ║
+║      ██║   █████╗  ██║     ███████║    █████╗  ██╔██╗ ██║   ██║   ███████║  ║
+║      ██║   ██╔══╝  ██║     ██╔══██║    ██╔══╝  ██║╚██╗██║   ██║   ██╔══██║  ║
+║      ██║   ███████╗╚██████╗██║  ██║    ███████╗██║ ╚████║   ██║   ██║  ██║  ║
+║      ╚═╝   ╚══════╝ ╚═════╝╚═╝  ╚═╝    ╚══════╝╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝  ║
+║                                                                              ║
+║                  [ 15 y/o | HTL Rennweg | Vienna 🇦🇹 ]                      ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
 
-<!--
-I want to say, who I am: I am a computer sience stundent form Austria/Vienna, maybe add my age.
-I want that the people know that I programm java, bash, kotlin and that I am doing HTML, CSS and more.
-They should know that I am good at Photoshop, Illustrator, General Graphic Design, and pixelart (I have done my profile pic)
-They should know that I love 3d printing
-They should know my hobbys, so playing football, Running, Sometimes parcour, Hikking, Skiing and much more
-They should know I love tinkering and building things, also with 3d printing.
-They should know that I am currently working on my Portfolio.
-They should know that I am a member of Setup Studios and currently working on MC-Milsim as the lead dev
-They should know that I am a tech enthusiast, and love all kinds of tech from building PCs to Custom Keyboards over Mics ending with Cameras
-They should know that I would like to do photography but I just dont have the time/Equipment for it
-They should know that I love cars
-They should know that I love Linux, especialy arch, and that I love ricing my hyprland setup
+</div>
 
-then my projects overview
-and Github stats
-Socials
+## ⚡ SYSTEM.INIT()
 
--->
+```python
+class TechEnthusiast:
+    def __init__(self):
+        self.name = "YOUR_NAME"
+        self.age = 15
+        self.location = "Vienna, Austria 🇦🇹"
+        self.school = "HTL Rennweg - IT Department (Year 2)"
+        self.passion_level = float('inf')
+        
+        self.obsessions = {
+            "networking": ["Cisco", "routing", "switching", "infrastructure"],
+            "development": ["web", "mobile", "embedded", "everything"],
+            "hardware": ["custom keyboards", "nerf mods", "3D printing"],
+            "media": ["audio engineering", "video production", "design"],
+            "sports": ["karting 🏎️", "football ⚽"]
+        }
+        
+    def life_philosophy(self):
+        return "Build. Break. Learn. Repeat. ♾️"
+    
+    def dream_setup(self):
+        wishlist = [
+            "3x server racks + enterprise networking gear",
+            "10x custom mechanical keyboards (all self-built)",
+            "20x modded nerf blasters (engineering + fun)",
+            "4x cameras + 7x audio interfaces + 4x microphones",
+            "9x grooveboxes for music production",
+            "Smart home automation (every. single. device.)",
+            "Professional soldering station + electronics lab",
+            "Unlimited microcontrollers for IoT projects",
+            "3D printer farm for rapid prototyping",
+            "Oscilloscopes, multimeters, logic analyzers..."
+        ]
+        return "If money wasn't a problem, I'd build all of this ↑"
 
-- 🔭 I’m currently working on [MC-Milsim a Minecraft mod](https://github.com/setup-studios/MC-Milsim)
+me = TechEnthusiast()
+print(me.life_philosophy())
+```
 
-- 🌱 I’m currently learning **Java, HTML, Cisco CLI and more**
+---
 
-- 👯 I’m working with [a small dev team, Setup Studios](https://github.com/setup-studios)
+## 🔧 TECH.STACK
 
-- 👨‍💻 All of my projects are available at [(Portfolio incoming) but most of it on github]
+<table>
+<tr>
+<td width="50%">
 
-- 💬 Ask me about **Project collaborations and what you want to ask**
+### 💾 Languages
+```javascript
+const languages = {
+    primary: ["Python", "JavaScript", "TypeScript"],
+    systems: ["C++", "Java"],
+    web: ["HTML5", "CSS3"],
+    learning: ["Rust", "Go", "Assembly"]
+};
+```
 
-- 📫 How to reach me **kkazimir@protonmail.com**
+</td>
+<td width="50%">
 
-- ⚡ Fun fact **I have a small workbench in my room**
+### 🌐 Networking
+```yaml
+expertise:
+  protocols: [TCP/IP, DNS, DHCP, VLAN]
+  devices: [Cisco, Ubiquiti, MikroTik]
+  concepts: [Routing, Switching, Firewalls]
+  goals: [CCNA, Enterprise Setup]
+```
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://instagram.com/schlangegoto" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="schlangegoto" height="30" width="40" /></a>
-<a href="https://www.youtube.com/@SchlangeGoto" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="schlangegoto" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/schlangegoto" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="schlangegoto" height="30" width="40" /></a>
-<a href="discord://-/users/808417880429166682" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="schlangegoto" height="30" width="40" /></a>
-</p>
+</td>
+</tr>
+<tr>
+<td width="50%">
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://kotlinlang.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="kotlin" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://www.adobe.com/products/xd.html" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/adobe-xd.svg" alt="xd" width="40" height="40"/> </a> </p>
+### ⚙️ Systems & DevOps
+```bash
+$ cat /etc/tech-stack
+- Linux (Ubuntu, Arch, Debian)
+- Docker & Kubernetes
+- VMware & Proxmox
+- Git & CI/CD
+- Cloud (AWS, Azure, GCP)
+```
+
+</td>
+<td width="50%">
+
+### 🎨 Creative & Hardware
+```css
+.creative-tools {
+    design: [Figma, Adobe Suite];
+    3d: [Blender, Fusion360];
+    hardware: [Arduino, ESP32, RPi];
+    music: [Ableton, FL Studio];
+}
+```
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📊 METRICS.LOG
+
+<div align="center">
+
+```diff
+@@  GitHub Statistics  @@
+```
+
+<img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=58a6ff&text_color=c9d1d9&icon_color=1f6feb" width="49%" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=dark&hide_border=true&background=0D1117&stroke=58a6ff&ring=58a6ff&fire=ff6e6e&currStreakLabel=c9d1d9" width="49%" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=58a6ff&text_color=c9d1d9" width="49%" />
+<img src="https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&theme=darkhub&no-frame=true&no-bg=true&column=4&row=2" width="49%" />
+
+</div>
+
+---
+
+## 🎯 CURRENT.QUEST
+
+```markdown
+[████████████████████░░░░] 80% - Building home lab infrastructure
+[███████████████░░░░░░░░░] 65% - Mastering React & Next.js
+[██████████░░░░░░░░░░░░░░] 45% - CCNA certification prep
+[███████████████████████░] 95% - Custom keyboard build #4
+[████████░░░░░░░░░░░░░░░░] 35% - IoT home automation project
+```
+
+<details>
+<summary><b>🔥 What I'm Actually Obsessed With Right Now</b></summary>
+
+<br>
+
+**The honest truth?** I'm obsessed with EVERYTHING tech. Not just interested—obsessed. If it has circuits, writes code, connects to a network, or moves mechanical parts, I want to understand it completely.
+
+**My dream?** A setup where I can experiment with literally anything:
+- Multiple server racks running enterprise-grade networking equipment
+- A wall of custom-built mechanical keyboards (yes, I build them)
+- Modded nerf blasters (engineering + fun = perfect)
+- Professional audio/video production setup
+- Smart home with every device automated
+- Electronics lab with professional equipment
+- 3D printing station for rapid prototyping
+- IoT devices everywhere
+
+**The reality?** I'm 15, still in school, and money is tight. But that won't stop me from learning everything I can and building whatever's possible with what I have.
+
+**What drives me?** The pure joy of making technology do exactly what I want it to do. Building something from scratch. Optimizing systems. Understanding how everything works at the deepest level.
+
+Technology isn't just my hobby—it's literally how I think. 🚀
+
+</details>
+
+---
+
+## 🛠️ PROJECTS.DIR
+
+```bash
+$ ls -la ~/projects/
+
+drwxr-xr-x  home-network-automation/    # Smart home + network config
+drwxr-xr-x  custom-keyboard-firmware/   # QMK configs for my builds
+drwxr-xr-x  nerf-chronograph/          # Arduino-based velocity tester
+drwxr-xr-x  school-projects/           # HTL assignments & experiments
+drwxr-xr-x  web-portfolio/             # Personal website (always WIP)
+drwxr-xr-x  iot-sensor-network/        # ESP32 + Node-RED setup
+```
+
+> 💡 **Pro tip:** Most of my best projects exist in private repos or on physical hardware. Check pinned repos for the good stuff!
+
+---
+
+## 🌐 CONNECT.SOCKET
+
+```javascript
+const socials = {
+    email: "YOUR_EMAIL",
+    linkedin: "YOUR_LINKEDIN",
+    instagram: "YOUR_INSTAGRAM", 
+    discord: "YOUR_DISCORD"
+};
+
+// Always open to:
+const interests = [
+    "🤝 Collaborating on cool projects",
+    "💬 Talking about tech (for hours)",
+    "🎓 Learning new technologies",
+    "🔧 Building something awesome"
+];
+```
+
+<div align="center">
+
+[![Email](https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:YOUR_EMAIL)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/YOUR_INSTAGRAM)
+[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/YOUR_DISCORD)
+
+![Profile Views](https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&color=58a6ff&style=for-the-badge&label=PROFILE+VIEWS)
+
+</div>
+
+---
+
+<div align="center">
+
+```
+╔═══════════════════════════════════════════════════════════╗
+║                                                           ║
+║  "I don't just use technology — I build it, break it,    ║
+║   optimize it, and make it do things it wasn't designed  ║
+║   to do. That's where the real fun begins."              ║
+║                                                           ║
+║                        - Me, probably                     ║
+║                                                           ║
+╚═══════════════════════════════════════════════════════════╝
+```
+
+**⚡ Let's build something insane together ⚡**
+
+</div>
