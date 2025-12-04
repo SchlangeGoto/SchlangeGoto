@@ -117,25 +117,42 @@ $ cat /etc/tech-stack
 
 ---
 
-## 🎯 CURRENT.MISSIONS
+## 🛠️ PROJECTS.DIR
 
-```yaml
-Active Projects:
-  - name: "Home Lab Infrastructure"
-    status: "Planning"
-    tech: [Server, Hardware, Proxmox, Networking]
-    
-  - name: "MS-GnK dart blaster"
-    status: "Planning"
-    tech: [Arduino, 3D Printing, MOSFETs, Solenoids, Circuits]
-    
-  - name: "Custom Keyboard #2"
-    status: "Almost done"
-    tech: [QMK, Switches, FOAM, Stabs]
-    
-  - name: "Portfolio Website"
-    status: "Work In Progress"
-    tech: [Next.js, React, Tailwind]
+```bash
+$ tree ~/projects/active/
+
+~/projects/active/
+├── home-lab-infrastructure/
+│   ├── server-hardware
+│   ├── proxmox
+│   ├── networking-gear
+│   └── experimenting
+│
+├── ms-gnk-dart-blaster/
+│   ├── mosfets
+│   ├── solenoids
+│   ├── brushless-motors
+│   ├── microcontroller
+│   └── 3d-printing
+│
+├── Akko 3068b plus keyboard/
+│   ├── qmk-firmware
+│   ├── switches
+│   ├── foam-mods
+│   ├── stabilizers
+│   └── soldering
+│
+├── portfolio-website/
+│   ├── next.js
+│   ├── react
+│   ├── tailwind
+│   └── always-wip.txt
+│
+└── school-projects/
+    ├── htl-assignments
+    └── experiments
+
 ```
 
 ---
@@ -169,7 +186,11 @@ Technology isn't just my hobby—it's literally how I think. 🚀
 
 ---
 
-## 📊 GITHUB.STATS
+## 📊 METRICS.LOG
+
+```bash
+$ git log --author="SchlangeGoto" --stat --graph
+```
 
 <div align="center">
 
