@@ -137,7 +137,6 @@ $ tree ~/projects/active/
 │   └── 3d-printing
 │
 ├── Akko 3068b plus keyboard/
-│   ├── qmk-firmware
 │   ├── switches
 │   ├── foam-mods
 │   ├── stabilizers
