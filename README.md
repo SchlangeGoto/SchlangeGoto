@@ -34,7 +34,7 @@ class TechEnthusiast:
 
         self.obsessions = {
             "networking": ["Cisco", "routing", "switching", "infrastructure"],
-            "development": ["web", "embedded", "everything"],
+            "development": ["web", "modding", "software"],
             "hardware": ["custom keyboards", "nerf mods", "3D printing"],
             "media": ["audio engineering", "video production", "design"],
             "sports": ["karting", "football"]
