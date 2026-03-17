@@ -27,7 +27,7 @@
 class TechEnthusiast:
     def __init__(self):
         self.name = "SchlangeGoto"
-        self.age = 15
+        self.age = 16
         self.location = "Vienna, Austria 🇦🇹"
         self.school = "HTL Rennweg - IT Department (Year 2)"
         self.passion_level = float('inf')
