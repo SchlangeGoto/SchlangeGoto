@@ -1,21 +1,21 @@
 <div align="center">
-  
-```ascii
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                                                                              ║
-║   ████████╗███████╗ ██████╗██╗  ██╗    ███████╗███╗   ██╗████████╗██╗  ██╗  ║
-║   ╚══██╔══╝██╔════╝██╔════╝██║  ██║    ██╔════╝████╗  ██║╚══██╔══╝██║  ██║  ║
-║      ██║   █████╗  ██║     ███████║    █████╗  ██╔██╗ ██║   ██║   ███████║  ║
-║      ██║   ██╔══╝  ██║     ██╔══██║    ██╔══╝  ██║╚██╗██║   ██║   ██╔══██║  ║
-║      ██║   ███████╗╚██████╗██║  ██║    ███████╗██║ ╚████║   ██║   ██║  ██║  ║
-║      ╚═╝   ╚══════╝ ╚═════╝╚═╝  ╚═╝    ╚══════╝╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝  ║
-║                                                                              ║
-║                  [ 16 y/o | HTL Rennweg | Vienna 🇦🇹 ]                      ║
-║                                                                              ║
-╚══════════════════════════════════════════════════════════════════════════════╝
 
-"I don't just use technology — I live it."
 ```
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█                                                                       █
+█   ████████╗███████╗ ██████╗██╗  ██╗    ███████╗███╗   ██╗████████╗   █
+█   ╚══██╔══╝██╔════╝██╔════╝██║  ██║    ██╔════╝████╗  ██║╚══██╔══╝   █
+█      ██║   █████╗  ██║     ███████║    █████╗  ██╔██╗ ██║   ██║      █
+█      ██║   ██╔══╝  ██║     ██╔══██║    ██╔══╝  ██║╚██╗██║   ██║      █
+█      ██║   ███████╗╚██████╗██║  ██║    ███████╗██║ ╚████║   ██║      █
+█      ╚═╝   ╚══════╝ ╚═════╝╚═╝  ╚═╝    ╚══════╝╚═╝  ╚═══╝   ╚═╝      █
+█                                                                       █
+█              [ 16 y/o  |  HTL Rennweg  |  Vienna 🇦🇹 ]               █
+█                                                                       █
+▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+```
+
+*"I don't just use technology — I live it."*
 
 </div>
 
@@ -26,23 +26,23 @@
 ```python
 class TechEnthusiast:
     def __init__(self):
-        self.name = "SchlangeGoto"
-        self.age = 16
-        self.location = "Vienna, Austria 🇦🇹"
-        self.school = "HTL Rennweg - IT Department (Year 2)"
+        self.name         = "SchlangeGoto"
+        self.age          = 16
+        self.location     = "Vienna, Austria 🇦🇹"
+        self.school       = "HTL Rennweg — IT Department (Year 2)"
         self.passion_level = float('inf')
 
         self.obsessions = {
-            "networking": ["Cisco", "routing", "switching", "infrastructure"],
+            "networking":  ["Cisco", "routing", "switching", "infrastructure"],
             "development": ["web", "modding", "software"],
-            "hardware": ["custom keyboards", "nerf mods", "3D printing"],
-            "media": ["audio engineering", "video production", "design"],
-            "sports": ["karting", "football"]
+            "hardware":    ["custom keyboards", "nerf mods", "3D printing"],
+            "media":       ["audio engineering", "video production", "design"],
+            "sports":      ["karting", "football"]
         }
-        
+
     def philosophy(self):
         return "Build. Break. Learn. Repeat."
-    
+
     def current_mission(self):
         return "Learning everything I can and building whatever's possible"
 
@@ -59,12 +59,12 @@ print(me.philosophy())
 <tr>
 <td width="50%" valign="top">
 
-**💾 Languages**
+**`💾` Languages**
 
 ```javascript
 const languages = {
-    primary: ["JavaScript", "Java", "Bash"],
-    web: ["HTML5", "CSS3", "Next.js"],
+    primary:  ["JavaScript", "Java", "Bash"],
+    web:      ["HTML5", "CSS3", "Next.js"],
     learning: ["C", "Assembly"]
 };
 ```
@@ -72,14 +72,14 @@ const languages = {
 </td>
 <td width="50%" valign="top">
 
-**🌐 Networking**
+**`🌐` Networking**
 
 ```yaml
 expertise:
-  devices: [Cisco]
-  programs: [Cisco packet tracer]
-  concepts: [Everything you need]
-  goals: [CCNA, Enterprise Setup]
+  devices:   [Cisco]
+  programs:  [Cisco Packet Tracer]
+  concepts:  [Everything you need]
+  goals:     [CCNA, Enterprise Setup]
 ```
 
 </td>
@@ -87,27 +87,27 @@ expertise:
 <tr>
 <td width="50%" valign="top">
 
-**⚙️ Systems & DevOps**
+**`⚙️` Systems & DevOps**
 
 ```bash
 $ cat /etc/tech-stack
-- Linux (Ubuntu, Arch, Debian)
-- Docker
-- VMware & Proxmox
-- Git
+  Linux (Ubuntu, Arch, Debian)
+  Docker
+  VMware & Proxmox
+  Git
 ```
 
 </td>
 <td width="50%" valign="top">
 
-**🎨 Creative & Hardware**
+**`🎨` Creative & Hardware**
 
 ```css
 .creative-tools {
-    design: [Adobe];
-    3d: [Blockbench, Fusion360];
-    hardware: [Arduino, Custom Keebs];
-    music: [Ableton];
+    design:   Adobe;
+    3d:       Blockbench, Fusion360;
+    hardware: Arduino, Custom Keebs;
+    music:    Ableton;
 }
 ```
 
@@ -159,11 +159,11 @@ $ tree ~/projects/active/
 ## 🔥 WHAT DRIVES ME
 
 <details>
-<summary><b>Click to expand</b></summary>
+<summary><b>▶ expand // what_drives_me.txt</b></summary>
 
 <br>
 
-**The honest truth?** I'm obsessed with EVERYTHING tech. Not just interested—obsessed. If it has circuits, writes code, connects to a network, or moves mechanical parts, I want to understand it completely.
+**The honest truth?** I'm obsessed with EVERYTHING tech. Not just interested — obsessed. If it has circuits, writes code, connects to a network, or moves mechanical parts, I want to understand it completely.
 
 **My dream setup?** If money wasn't a constraint:
 - 3× server racks with enterprise networking gear
@@ -175,11 +175,11 @@ $ tree ~/projects/active/
 - Smart home automation for every device
 - Unlimited microcontrollers for IoT projects
 
-**The reality?** I'm 15, still in school, money is tight. But that won't stop me from learning everything I can and building whatever's possible with what I have.
+**The reality?** I'm 16, still in school, money is tight. But that won't stop me from learning everything I can and building whatever's possible with what I have.
 
 **What drives me?** The pure joy of making technology do exactly what I want. Building from scratch. Optimizing systems. Understanding how everything works at the deepest level.
 
-Technology isn't just my hobby—it's literally how I think. 🚀
+Technology isn't just my hobby — it's literally how I think. 🚀
 
 </details>
 
@@ -187,16 +187,16 @@ Technology isn't just my hobby—it's literally how I think. 🚀
 
 ## 📊 METRICS.LOG
 
-```bash
+```
 $ git log --author="SchlangeGoto" --stat --graph
 ```
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=SchlangeGoto&show_icons=true&theme=transparent&hide_border=true&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&bg_color=0d1117" alt="Stats" width="49%"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=SchlangeGoto&theme=transparent&hide_border=true&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=ff6e6e&currStreakLabel=c9d1d9&sideLabels=c9d1d9" alt="Streak" width="49%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=SchlangeGoto&show_icons=true&theme=gruvbox&hide_border=true&title_color=f59e0b&text_color=ebdbb2&icon_color=d97706&bg_color=1c1917" alt="Stats" width="49%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=SchlangeGoto&theme=gruvbox&hide_border=true&background=1c1917&stroke=f59e0b&ring=f59e0b&fire=fb923c&currStreakLabel=ebdbb2&sideLabels=ebdbb2" alt="Streak" width="49%"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SchlangeGoto&layout=compact&theme=transparent&hide_border=true&title_color=58a6ff&text_color=c9d1d9&bg_color=0d1117&langs_count=6" alt="Languages" width="49%"/>
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SchlangeGoto&layout=compact&theme=gruvbox&hide_border=true&title_color=f59e0b&text_color=ebdbb2&bg_color=1c1917)](https://github.com/anuraghazra/github-readme-stats)
 
 </div>
 
@@ -206,10 +206,10 @@ $ git log --author="SchlangeGoto" --stat --graph
 
 ```javascript
 const socials = {
-    email: "dev@kkazi.dev",
+    email:     "dev@kkazi.dev",
     instagram: "@kazi.goto",
-    discord: "SchlangeGoto",
-    linkedin: "Coming Soon™"
+    discord:   "SchlangeGoto",
+    linkedin:  "Coming Soon™"
 };
 
 // Open to:
@@ -223,11 +223,11 @@ const lookingFor = [
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/dev@kkazi.dev-0078D4?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dev@kkazi.dev)
-[![Instagram](https://img.shields.io/badge/@kazi.goto-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/kazi.goto)
-[![Discord](https://img.shields.io/badge/SchlangeGoto-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/808417880429166682)
+[![Email](https://img.shields.io/badge/dev@kkazi.dev-f59e0b?style=for-the-badge&logo=gmail&logoColor=1c1917)](mailto:dev@kkazi.dev)
+[![Instagram](https://img.shields.io/badge/@kazi.goto-d97706?style=for-the-badge&logo=instagram&logoColor=1c1917)](https://instagram.com/kazi.goto)
+[![Discord](https://img.shields.io/badge/SchlangeGoto-f59e0b?style=for-the-badge&logo=discord&logoColor=1c1917)](https://discord.com/users/808417880429166682)
 
-![Profile Views](https://komarev.com/ghpvc/?username=SchlangeGoto&color=58a6ff&style=flat-square&label=visitors)
+![Profile Views](https://komarev.com/ghpvc/?username=SchlangeGoto&color=f59e0b&style=flat-square&label=visitors)
 
 </div>
 
@@ -236,14 +236,14 @@ const lookingFor = [
 <div align="center">
 
 ```
-╔═══════════════════════════════════════════════════════════╗
-║                                                           ║
-║   "The best way to predict the future is to build it."   ║
-║                                                           ║
-║              Let's build something insane.               ║
-║                                                           ║
-║                 - probably some dude                     ║
-╚═══════════════════════════════════════════════════════════╝
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█                                                               █
+█   "The best way to predict the future is to build it."       █
+█                                                               █
+█                  Let's build something insane.               █
+█                                                               █
+█                     — probably some dude                     █
+▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 ```
 
 </div>
