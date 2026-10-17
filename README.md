@@ -10,7 +10,7 @@
 █      ██║   ███████╗╚██████╗██║  ██║    ███████╗██║ ╚████║   ██║      █
 █      ╚═╝   ╚══════╝ ╚═════╝╚═╝  ╚═╝    ╚══════╝╚═╝  ╚═══╝   ╚═╝      █
 █                                                                       █
-█              [ 16 y/o  |  HTL Rennweg  |  Vienna 🇦🇹 ]               █
+█              [ 16 y/o  |  HTL Rennweg  |  Vienna ]               █
 █                                                                       █
 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 ```
@@ -28,27 +28,25 @@ class TechEnthusiast:
     def __init__(self):
         self.name         = "SchlangeGoto"
         self.age          = 16
-        self.location     = "Vienna, Austria 🇦🇹"
-        self.school       = "HTL Rennweg — IT Department (Year 2)"
+        self.location     = "Vienna, Austria"
+        self.school       = "HTL Rennweg — IT Department (Year 3)"
         self.passion_level = float('inf')
 
         self.obsessions = {
             "networking":  ["Cisco", "routing", "switching", "infrastructure"],
-            "development": ["web", "modding", "software"],
+            "development": ["web", "modding", "software", "microcontrollers"],
             "hardware":    ["custom keyboards", "nerf mods", "3D printing"],
             "media":       ["audio engineering", "video production", "design"],
-            "sports":      ["karting", "football"]
+            "sports":      ["karting", "football", "skiing"]
         }
 
     def philosophy(self):
-        return "Build. Break. Learn. Repeat."
+        return "Jack of all trades. Hero of every kingdom, sovereign of none."
 
     def current_mission(self):
-        return "Learning everything I can and building whatever's possible"
+        return "I would like to know, but I dont"
 
 me = TechEnthusiast()
-print(me.philosophy())
-# >>> Build. Break. Learn. Repeat.
 ```
 
 ---
@@ -63,9 +61,9 @@ print(me.philosophy())
 
 ```javascript
 const languages = {
-    primary:  ["JavaScript", "Java", "Bash"],
-    web:      ["HTML5", "CSS3", "Next.js"],
-    learning: ["C", "Assembly"]
+    primary:  ["Java", "TypeScript", "Python"],
+    web:      ["React", "Tailwind", "Next.js"],
+    learning: ["C", "Bash"]
 };
 ```
 
@@ -77,9 +75,8 @@ const languages = {
 ```yaml
 expertise:
   devices:   [Cisco]
-  programs:  [Cisco Packet Tracer]
   concepts:  [Everything you need]
-  goals:     [CCNA, Enterprise Setup]
+  in work:   [CCNA, Enterprise Setup]
 ```
 
 </td>
@@ -129,28 +126,30 @@ $ tree ~/projects/active/
 │   ├── networking-gear
 │   └── experimenting
 │
-├── ms-gnk-dart-blaster/
-│   ├── mosfets
-│   ├── solenoids
-│   ├── brushless-motors
-│   ├── microcontroller
-│   └── 3d-printing
-│
-├── Akko 3068b plus keyboard/
-│   ├── switches
-│   ├── foam-mods
-│   ├── stabilizers
-│   └── soldering
-│
 ├── portfolio-website/
 │   ├── next.js
 │   ├── react
-│   ├── tailwind
-│   └── always-wip.txt
+│   └── tailwind
 │
-└── school-projects/
-    ├── htl-assignments
-    └── experiments
+├── school-projects/
+│   ├── assignments
+│   └── experiments
+│
+├── open-print-dashboard/
+│   ├── python
+│   ├── next.js
+│   ├── postgresql
+│   ├── tailwind
+│   ├── shadcn
+│   └── bambu rest api
+│
+└── ms-gnk-dart-blaster/
+    ├── mosfets
+    ├── solenoids
+    ├── brushless-motors
+    ├── microcontroller
+    └── 3d-printing
+
 
 ```
 
@@ -163,23 +162,19 @@ $ tree ~/projects/active/
 
 <br>
 
-**The honest truth?** I'm obsessed with EVERYTHING tech. Not just interested — obsessed. If it has circuits, writes code, connects to a network, or moves mechanical parts, I want to understand it completely.
+I'm obsessed with EVERYTHING in tech. Not just interested, obsessed. If it has circuits, writes code, connects to a network, or moves mechanical parts, I want to understand it.
 
-**My dream setup?** If money wasn't a constraint:
+**My dream setup** If money wasn't an issue:
 - 3× server racks with enterprise networking gear
-- 10+ custom mechanical keyboards (all hand-built)
-- 20+ modded nerf blasters (engineering + fun)
 - Professional audio/video production studio
-- Complete electronics lab with oscilloscopes and logic analyzers
-- 3D printer farm for rapid prototyping
+- Complete electronics lab
+- 3D printer farm for prototyping
 - Smart home automation for every device
 - Unlimited microcontrollers for IoT projects
 
-**The reality?** I'm 16, still in school, money is tight. But that won't stop me from learning everything I can and building whatever's possible with what I have.
+**The reality** I'm 16, still in school, money is tight. But that won't stop me from learning everything I can and building whatever's possible with what I have.
 
-**What drives me?** The pure joy of making technology do exactly what I want. Building from scratch. Optimizing systems. Understanding how everything works at the deepest level.
-
-Technology isn't just my hobby — it's literally how I think. 🚀
+Technology isn't just my hobby it's literally how I think
 
 </details>
 
@@ -206,7 +201,7 @@ $ git log --author="SchlangeGoto" --stat --graph
 
 ```javascript
 const socials = {
-    email:     "dev@kkazi.dev",
+    email:     "contact@kkazi.dev",
     instagram: "@kazi.goto",
     discord:   "SchlangeGoto",
     linkedin:  "Coming Soon™"
@@ -215,7 +210,7 @@ const socials = {
 // Open to:
 const lookingFor = [
     "Cool project collaborations",
-    "Tech discussions (I can talk for hours)",
+    "Tech discussions",
     "Learning opportunities",
     "Building something awesome together"
 ];
@@ -242,7 +237,7 @@ const lookingFor = [
 █                                                               █
 █                  Let's build something insane.               █
 █                                                               █
-█                     — probably some dude                     █
+█                     — probably someone                       █
 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 ```
 
