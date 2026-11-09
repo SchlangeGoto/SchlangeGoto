@@ -188,10 +188,10 @@ $ git log --author="SchlangeGoto" --stat --graph
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=SchlangeGoto&show_icons=true&theme=gruvbox&hide_border=true&title_color=f59e0b&text_color=ebdbb2&icon_color=d97706&bg_color=1c1917" alt="Stats" width="49%"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=SchlangeGoto&theme=gruvbox&hide_border=true&background=1c1917&stroke=f59e0b&ring=f59e0b&fire=fb923c&currStreakLabel=ebdbb2&sideLabels=ebdbb2" alt="Streak" width="49%"/>
+<img src="./profile/stats.svg" alt="Stats" width="49%"/>
+<img src="https://streak-stats.demolab.com/?user=SchlangeGoto&theme=gruvbox&hide_border=true&background=1c1917&stroke=f59e0b&ring=f59e0b&fire=fb923c&currStreakLabel=ebdbb2&sideLabels=ebdbb2" alt="Streak" width="49%"/>
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SchlangeGoto&layout=compact&theme=gruvbox&hide_border=true&title_color=f59e0b&text_color=ebdbb2&bg_color=1c1917)](https://github.com/anuraghazra/github-readme-stats)
+<a href="https://github.com/stats-organization/github-readme-stats"><img src="./profile/top-langs.svg" alt="Top Langs"/></a>
 
 </div>
 
