@@ -1,4 +1,4 @@
-name: Update metrics cards
+name: Update metrics
 
 on:
   schedule:
@@ -14,16 +14,16 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - name: Generate metrics cards
+      - name: Regenerate METRICS.LOG
         env:
           # optional PAT: put one in STATS_TOKEN to include private contributions
           GITHUB_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
         run: python3 scripts/metrics.py
 
-      - name: Commit cards
+      - name: Commit README
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/metrics-activity.svg profile/metrics-languages.svg
-          git commit -m "Update metrics cards" || exit 0
+          git add README.md
+          git commit -m "Update metrics" || exit 0
           git push

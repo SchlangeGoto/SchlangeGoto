@@ -182,19 +182,27 @@ Technology isn't just my hobby it's literally how I think
 
 ## 📊 METRICS.LOG
 
+<!-- METRICS:START -->
+```text
+$ metrics --since="12 months"
+
+ACTIVITY ───────────────────────────────────────────────────────────────
+  commits          513     followers                 8
+  pull requests     31     on github since        2024
+  public repos       6     current streak      11 days
+  contributions    549     longest streak      11 days
+
+LANGUAGES ────────────────────────────────────────────── 1.69 MB of code
+  TypeScript  ████████████████████████████████████████████████  40.4%
+  Python      ██████████████████████████████████████            32.2%
+  CSS         ███████████                                        9.5%
+  Shell       █████████                                          7.3%
+  Lua         █████                                              4.4%
+  Java        ████                                               3.1%
 ```
-$ metrics --since="12 months" --format=terminal
-```
+<!-- METRICS:END -->
 
-<div align="center">
-
-![Activity — commits, pull requests, repositories, followers and the contribution map of the last year](./profile/metrics-activity.svg)
-
-![Languages — distribution of code by bytes across public repositories](./profile/metrics-languages.svg)
-
-<sub>auto-generated daily from the GitHub GraphQL API · <a href="scripts/metrics.py">scripts/metrics.py</a></sub>
-
-</div>
+<sub>regenerated daily from the GitHub GraphQL API · <a href="scripts/metrics.py">scripts/metrics.py</a></sub>
 
 ---
 
@@ -219,11 +227,7 @@ const lookingFor = [
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/dev@kkazi.dev-f59e0b?style=for-the-badge&logo=gmail&logoColor=1c1917)](mailto:dev@kkazi.dev)
-[![Instagram](https://img.shields.io/badge/@kazi.goto-d97706?style=for-the-badge&logo=instagram&logoColor=1c1917)](https://instagram.com/kazi.goto)
-[![Discord](https://img.shields.io/badge/SchlangeGoto-f59e0b?style=for-the-badge&logo=discord&logoColor=1c1917)](https://discord.com/users/808417880429166682)
-
-![Profile Views](https://komarev.com/ghpvc/?username=SchlangeGoto&color=f59e0b&style=flat-square&label=visitors)
+[contact@kkazi.dev](mailto:contact@kkazi.dev) · [@kazi.goto](https://instagram.com/kazi.goto) · [discord](https://discord.com/users/808417880429166682)
 
 </div>
 
