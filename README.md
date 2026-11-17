@@ -192,7 +192,7 @@ $ metrics --since="12 months" --format=terminal
 
 ![Languages — distribution of code by bytes across public repositories](./profile/metrics-languages.svg)
 
-`generated daily from the GitHub GraphQL API` · `source: scripts/metrics.py`
+<sub>auto-generated daily from the GitHub GraphQL API · <a href="scripts/metrics.py">scripts/metrics.py</a></sub>
 
 </div>
 
