@@ -189,6 +189,7 @@ $ metrics --since="12 months" --format=terminal
 <div align="center">
 
 ![Activity — commits, pull requests, repositories, followers and the contribution map of the last year](./profile/metrics-activity.svg)
+
 ![Languages — distribution of code by bytes across public repositories](./profile/metrics-languages.svg)
 
 `generated daily from the GitHub GraphQL API` · `source: scripts/metrics.py`
