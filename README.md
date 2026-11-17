@@ -183,15 +183,15 @@ Technology isn't just my hobby it's literally how I think
 ## 📊 METRICS.LOG
 
 ```
-$ git log --author="SchlangeGoto" --stat --graph
+$ metrics --since="12 months" --format=terminal
 ```
 
 <div align="center">
 
-<img src="./profile/stats.svg" alt="Stats" width="49%"/>
-<img src="https://streak-stats.demolab.com/?user=SchlangeGoto&theme=gruvbox&hide_border=true&background=1c1917&stroke=f59e0b&ring=f59e0b&fire=fb923c&currStreakLabel=ebdbb2&sideLabels=ebdbb2" alt="Streak" width="49%"/>
+![Activity — commits, pull requests, repositories, followers and the contribution map of the last year](./profile/metrics-activity.svg)
+![Languages — distribution of code by bytes across public repositories](./profile/metrics-languages.svg)
 
-<a href="https://github.com/stats-organization/github-readme-stats"><img src="./profile/top-langs.svg" alt="Top Langs"/></a>
+`generated daily from the GitHub GraphQL API` · `source: scripts/metrics.py`
 
 </div>
 
