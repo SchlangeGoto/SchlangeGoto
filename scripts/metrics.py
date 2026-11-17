@@ -35,10 +35,11 @@ GRAPHQL = """
 query($login: String!, $from: DateTime!) {
   user(login: $login) {
     createdAt
-    followers { totalCount }
     repositories(first: 100, ownerAffiliations: OWNER, isFork: false, privacy: PUBLIC) {
       totalCount
       nodes {
+        name
+        pushedAt
         languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
           edges { size node { name } }
         }
@@ -114,16 +115,19 @@ def collect(user: dict) -> dict:
         current += 1
 
     languages: dict[str, int] = {}
+    pushes = []
     for repo in repos["nodes"]:
         for edge in repo["languages"]["edges"]:
             languages[edge["node"]["name"]] = languages.get(edge["node"]["name"], 0) + edge["size"]
+        if repo["name"] != USER:          # don't count the stats commit itself
+            pushes.append(repo["pushedAt"])
 
     return {
         "commits": contrib["totalCommitContributions"],
         "prs": contrib["totalPullRequestContributions"],
         "contributions": sum(daily),
-        "followers": user["followers"]["totalCount"],
         "repos": repos["totalCount"],
+        "last_push": max(pushes)[:10] if pushes else "—",
         "since": user["createdAt"][:4],
         "current_streak": current,
         "longest_streak": longest,
@@ -157,15 +161,14 @@ def render(d: dict) -> str:
     gap = " " * 5
 
     pairs = [
-        ("commits", d["commits"], "followers", d["followers"]),
-        ("pull requests", d["prs"], "on github since", d["since"]),
-        ("public repos", d["repos"], "current streak", f"{d['current_streak']} days"),
-        ("contributions", d["contributions"], "longest streak", f"{d['longest_streak']} days"),
+        ("commits", d["commits"], "contributions", d["contributions"]),
+        ("pull requests", d["prs"], "current streak", f"{d['current_streak']} days"),
+        ("public repos", d["repos"], "longest streak", f"{d['longest_streak']} days"),
     ]
     activity = "\n".join(
-        "  " + metric(left, lv, 15, 5) + gap + metric(right, rv, 17, 10)
+        "  " + metric(left, lv, 15, 7) + gap + metric(right, rv, 16, 7)
         for left, lv, right, rv in pairs
-    )
+    ) + f"\n\n  since {d['since']} · last public push {d['last_push']}"
 
     languages = d["languages"][:6]
     total = sum(size for _, size in d["languages"]) or 1
@@ -184,7 +187,7 @@ def render(d: dict) -> str:
             rule("ACTIVITY"),
             activity,
             "",
-            rule("LANGUAGES", f"{human_size(total)} of code"),
+            rule("LANGUAGES", f"{human_size(total)} · {len(d['languages'])} languages"),
             lang_lines,
             "```",
         ]
