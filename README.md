@@ -203,8 +203,6 @@ LANGUAGES ───────────────────────�
 ```
 <!-- METRICS:END -->
 
-<sub>regenerated daily from the GitHub GraphQL API · <a href="scripts/metrics.py">scripts/metrics.py</a></sub>
-
 ---
 
 ## 🌐 CONNECT
