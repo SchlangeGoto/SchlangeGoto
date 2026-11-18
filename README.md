@@ -187,15 +187,15 @@ Technology isn't just my hobby it's literally how I think
 $ metrics --since="12 months"
 
 ACTIVITY ───────────────────────────────────────────────────────────────
-  commits            515     contributions       551
-  pull requests       31     current streak  11 days
-  public repos         6     longest streak  11 days
+  commits            518     contributions       554
+  pull requests       31     current streak  12 days
+  public repos         6     longest streak  12 days
 
-  since 2024 · last public push 2026-11-17
+  since 2024 · last public push 2026-11-18
 
 LANGUAGES ─────────────────────────────────────── 1.69 MB · 12 languages
-  TypeScript  ████████████████████████████████████████████████  40.4%
-  Python      ██████████████████████████████████████            32.2%
+  TypeScript  ████████████████████████████████████████████████  40.6%
+  Python      ██████████████████████████████████████            32.0%
   CSS         ███████████                                        9.5%
   Shell       █████████                                          7.3%
   Lua         █████                                              4.4%
